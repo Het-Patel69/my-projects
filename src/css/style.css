@@ -13,8 +13,6 @@ body{
     min-height: 100vh;
     margin-inline: auto;
     padding: 1rem;
-    border-radius: 0.5rem;
-    backdrop-filter: blur(1rem);
     max-width: 80%;
     display: grid;
     grid-template-columns: repeat(3,1fr);
