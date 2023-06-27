@@ -27,46 +27,52 @@ body{
     width: 300px;
     transition: 300ms;
     border-radius: 0.5rem;
-    background-origin: content-box;
 }
-
-
 
 .project-wrapper:nth-child(1){
     background: url(../img/Autarchic-img.png);
     background-size: cover;
+    background-position: center top;
 }
 .project-wrapper:nth-child(2){
     background: url(../img/Abstract-Studio-img.png);
     background-size: cover;
+    background-position: center top;
 }
 .project-wrapper:nth-child(3){
     background: url(../img/glass-website-img.png);
     background-size: cover;
+    background-position: center top;
 }
 .project-wrapper:nth-child(4){
     background: url(../img/login\(php\)-img.png);
     background-size: cover;
+    background-position: center top;
 }
 .project-wrapper:nth-child(5){
     background: url(../img/notes\(php\)-img.png);
     background-size: cover;
+    background-position: center top;
 }
 .project-wrapper:nth-child(6){
     background: url(../img/Personal-Portfolio-img.png);
     background-size: cover;
+    background-position: center top;
 }
 .project-wrapper:nth-child(7){
     background: url(../img/Sneaker-Store-img.png);
     background-size: cover;
+    background-position: center top;
 }
 .project-wrapper:nth-child(8){
     background: url(../img/meme-generator-img.png);
     background-size: cover;
+    background-position: center top;
 }
 .project-wrapper:nth-child(9){
     background: url(../img/3js-img.png);
     background-size: cover;
+    background-position: center top;
 }
 
 
