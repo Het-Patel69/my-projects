@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    position: relative;
+    background: linear-gradient(90deg, hsla(213, 77%, 14%, 1) 0%, hsla(202, 27%, 45%, 1) 100%);
+}
+
+.projects-container{
+    min-height: 100vh;
+    margin-inline: auto;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    backdrop-filter: blur(1rem);
+    max-width: 80%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    gap: 1rem;
+}
+
+.project-wrapper{
+    height: 200px;
+    width: 300px;
+    transition: 300ms;
+    border-radius: 0.5rem;
+    background-origin: content-box;
+}
+
+.project-wrapper:hover{
+    transform: scale(1.1)
+}
+
+.projects-container:has(.project-wrapper:hover) .project-wrapper:not(:hover){
+    filter: blur(0.5rem);
+    transform: scale(0.9)
+}
+
+.project-wrapper:nth-child(1){
+    background: url(../img/Autarchic-img.png);
+    background-size: cover;
+}
+.project-wrapper:nth-child(2){
+    background: url(../img/Abstract-Studio-img.png);
+    background-size: cover;
+}
+.project-wrapper:nth-child(3){
+    background: url(../img/glass-website-img.png);
+    background-size: cover;
+}
+.project-wrapper:nth-child(4){
+    background: url(../img/login\(php\)-img.png);
+    background-size: cover;
+}
+.project-wrapper:nth-child(5){
+    background: url(../img/notes\(php\)-img.png);
+    background-size: cover;
+}
+.project-wrapper:nth-child(6){
+    background: url(../img/Personal-Portfolio-img.png);
+    background-size: cover;
+}
+.project-wrapper:nth-child(7){
+    background: url(../img/Sneaker-Store-img.png);
+    background-size: cover;
+}
+.project-wrapper:nth-child(8){
+    background: url(../img/meme-generator-img.png);
+    background-size: cover;
+}
+.project-wrapper:nth-child(9){
+    background: url(../img/3js-img.png);
+    background-size: cover;
+}
+
+
+.socials{
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+    position: absolute;
+    left: 0;
+    top: 0;
+    mix-blend-mode: exclusion;
+}
