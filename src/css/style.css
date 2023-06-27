@@ -30,14 +30,7 @@ body{
     background-origin: content-box;
 }
 
-.project-wrapper:hover{
-    transform: scale(1.1)
-}
 
-.projects-container:has(.project-wrapper:hover) .project-wrapper:not(:hover){
-    filter: blur(0.5rem);
-    transform: scale(0.9)
-}
 
 .project-wrapper:nth-child(1){
     background: url(../img/Autarchic-img.png);

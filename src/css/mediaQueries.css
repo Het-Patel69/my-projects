@@ -12,3 +12,14 @@
         padding: 4rem 1rem;
     }
 }
+
+@media screen and (min-width: 750px){
+    .project-wrapper:hover{
+        transform: scale(1.1)
+    }
+    
+    .projects-container:has(.project-wrapper:hover) .project-wrapper:not(:hover){
+        filter: blur(0.5rem);
+        transform: scale(0.9)
+    }
+}
